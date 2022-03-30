@@ -8,13 +8,13 @@
  */
 function calculate () {
   // input
-  const Abase = parseInt(document.getElementById('Abase').value)
-  const Bbase = parseInt(document.getElementById('Bbase').value)
-const Hight = parseInt(document.getElementById('Hight').value)
+  const aBase = parseInt(document.getElementById('aBase').value)
+  const bBase = parseInt(document.getElementById('bBase').value)
+  const height = parseInt(document.getElementById('height').value)
 
   // process 
-  const area = [(a + b) 1 / 2 x h]
+  const area = (aBase + bBase) * (1 / 2) * height
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' mm²'
+  document.getElementById('area').innerHTML = '<p>Area is: ' + area.toString() + ' mm²</p>'
 }
